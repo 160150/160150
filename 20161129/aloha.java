@@ -11,6 +11,7 @@ public class aloha {
 	
 			
 		}
+		System.out.println(args[0]+"さん,アロハ");
 	}
 	
 }
