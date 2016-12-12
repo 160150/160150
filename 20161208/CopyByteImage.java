@@ -4,8 +4,8 @@ public class CopyByteImage  {
 FileInputStream inFile = null;
 
 		try{
-FileOutputStream outFile = new FileOutputStream("a.jpg");
-     inFile = new FileInputStream("Image/n(1).jpg");
+	FileOutputStream outFile = new FileOutputStream("a.jpg");
+    inFile = new FileInputStream("Image/n(1).jpg");
     int data;
     int n= 0;
     while((data = inFile.read())!= -1){
