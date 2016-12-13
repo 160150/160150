@@ -22,8 +22,7 @@ public class 	ShowByteImage{
 
 		}catch(IOException e){
 			System.err.println("エラーです。");
-			System .exit(1);
-		}
+			System .exit(1		}
 	}
 
 }
