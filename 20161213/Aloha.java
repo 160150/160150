@@ -1,9 +1,14 @@
 public class Aloha  {
 	public static void main(String[] args) {
-		for (int i=0;i<20 ;i++) {
-			System.out.println(i+ args[0]);	
+		
+			System.out.println("input data");
+			String data = new java.util.Scanner(System.in ).nextLine();
+			System.out.println(data);
+			if (data.equals ("exit")) {
+				System.out.println("おわりました");
+					
+				}	
 
 		}
 	}
 	
-}
